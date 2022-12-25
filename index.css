@@ -1,0 +1,247 @@
+body{
+   /* background-image: url(MJsport.png); */
+   /* background-size: cover; */
+   background-color: rgb(15, 171, 169);
+}
+
+/* Спизженные шрифты */
+@font-face {
+   src: url("font/Ubuntu-Medium.ttf");
+   font-family: Ubuntu;
+ }
+ @font-face {
+   src: url("../font/Poppins-Medium.ttf");
+   font-family: Poppins;
+ }
+ @font-face {
+   src: url("/Fonts/Revalia-Regular.ttf");
+   font-family: Revalia;
+ }
+
+
+
+
+.whatsapp{
+   background-color: green;
+   border: solid 4px white;
+   border-radius: 10px;
+   font-size: 20px;
+   color: white;
+   padding: 20px;
+   position: absolute;
+   margin-top: 30px;
+   margin-left: 1700px;
+   text-decoration: none;
+   font-family: Ubuntu;
+   box-shadow: 10px 10px 20px green;
+}
+
+.whatsapp:hover{
+   background-color: rgb(18, 13, 13);
+   font-size: 22px;
+   transition: background-color 0.3s linear;
+   transition: font-size 0.3S;
+}
+
+/* меню с верху, та хуеетнь */
+.menu{
+   position: absolute;
+   margin-top: -2px;
+   margin-left: 400px;
+   width: 1100px;
+   height: 160px;
+   border-top: 90px solid rgb(61, 58, 56);
+ 
+   text-align: left;
+}
+
+/* Кнопка с которой 2 часа ебался*/
+.knopka1{
+
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 700px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.knopka1:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.macbook1{
+   color: #fff;
+   border-bottom: solid 3px;
+}
+
+.macbook{
+   text-decoration: none;
+}
+
+.knopka2{
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 850px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.knopka:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.Navalny1{
+   text-decoration: none;
+}
+
+.Navalny{
+   color: #fff;
+   border-bottom: solid 3px;
+   margin-bottom: 4px;
+}
+
+.knopka3{
+
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 1000px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.knopka3:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.bigser1{
+   color: #fff;
+   border-bottom: solid 3px;
+   margin-bottom: 4px;
+}
+
+.trinadcat{
+   text-decoration: none;
+}
+
+.knopka4{
+
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 1150px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.knopka4:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.samsung1{
+   color: #fff;
+   border-bottom: solid 3px;
+   margin-bottom: 4px;
+}
+
+.like{
+   text-decoration: none;
+}
+
+.knopka5{
+   padding: 5px;
+   color: white;
+   position: absolute;
+   margin-top: 13px;
+   margin-left: 1300px;
+   width: 80px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.knopka5:hover{
+   width: 100px;
+   transition: width 0.3S;
+}
+
+.iphone1{
+   color: #fff;
+   border-bottom: solid 3px;
+   margin-bottom: 4px;
+}
+
+
+.iconka{
+   position: absolute;
+   margin-top: -20px;
+   margin-left: 450px;
+}
+
+.kartinka{
+   width: 420px;
+   height: 450px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 370px;
+   
+ }
+
+ .kartinka1{
+   width: 420px;
+   height: 450px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 700px;
+   margin-left: 370px;
+ }
+
+ .kartinka2{
+   width: 320px;
+   height: 450px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 720px;
+   margin-left: 1300px;
+ }
+
+ .kartinka3{
+   width: 320px;
+   height: 450px;
+   border: 5px solid #000;
+   border-radius: 35px;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 1300px;
+ }
+ 
+
+.scroll{
+   height: 2000px;
+}
